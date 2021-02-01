@@ -1,0 +1,21 @@
+/* headerここから */
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 288px;
+    height: 93px;
+    font-family: 'Caveat', serif;
+}
+/* headerここまで */
+
+/* swiperここから */
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
