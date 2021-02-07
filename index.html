@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="destyle.css">
     <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ファッションサイト</title>
 </head>
@@ -26,17 +27,51 @@
     <!-- headerここまで -->
 
     <!-- swiperここから -->
-    <div class="relative">
-        <img src="../4,fashion site/img/background.png" alt="" />
-        <img src="../4,fashion site/img/primitiveimg.png" alt=""  class="absolute" />
-    </div>
-      
-          <div class="swiper-pagination"></div>
-            
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
+     <!-- Sliderの内包コンテナ -->
+  <div class="swiper-wrapper">
+    <div class="back_ground">
+      <div class="swiper-slide"><img src="img/title.png">
+        <p class="text_ja">太古の誇りを</p>
+        <p class="text_en">Discover the Collection</p>
+        <hr class="line">
       </div>
+    </div>
+    <div class="swiper-container">
+     
+          <!-- Slideさせたいコンテンツ -->
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+      </div>
+      <!-- ページネーション（※省略可） -->
+      <div class="swiper-pagination"></div>
+      <!-- ナビゲーションボタン（※省略可） -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  
+      <!-- スクロールバー（※省略可） -->
+      <div class="swiper-scrollbar"></div>
+  </div>
     <!-- swiperここまで -->
+   
+    <!-- mainここから -->
+    <main class="primitive">
+      <img src="img/primitiveimg.png" alt="グレー画像">
+      <ul>
+        <li class="title">2020 SS Colection</li>
+        <li class="title_main">Primitive</li>
+        <li class="title_ja">太古の誇りを</li>
+        <li class="title_en">Discover</li>
+        <hr class="line2">
+      </ul>
+    </main>
+    <!-- mainここまで -->
+
+
+
+
+    <!-- swiper読み込み -->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
 </body>
 </html>

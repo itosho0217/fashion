@@ -5,17 +5,88 @@
     align-items: center;
     margin-left: 230px;
     margin-right: 288px;
+    padding: 10px;
     height: 93px;
     font-family: 'Caveat', serif;
 }
 /* headerここまで */
 
 /* swiperここから */
-
-.relative{
-    position: relative;
+.back_ground{
+    background-image: url(img/background.png);
+    background-size: cover;
+    height: 600px;
 }
 
-.absolute{
-    position: absolute;
+.swiper-slide img {
+    margin-top: 249px;
+    margin-left: 230px;
+    width: 40%;
+}
+
+.text_ja {
+    margin-left: 480px;
+    font-size: 20px;
+    font-family: 'Caveat', serif;
+
+}
+
+.text_en{
+    margin-top: 30px;
+    margin-left: 455px;
+    font-family: 'Caveat', serif;
+}
+
+.line{
+    margin-left: 450px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
+
+/* swiperここまで */
+
+/* main */
+.primitive {
+    margin-top: 125px;
+    margin-left: 226px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    margin-top: 46px;
+    margin-left: 85px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title_main{
+    font-family: 'Caveat', serif;
+    font-size: 64px;
+    margin-left: 85px;
+}
+
+
+.title_ja{
+    font-family: 'Caveat', serif;
+    font-size: 30px;
+    margin-left: 85px;
+    margin-top: 18px;
+}
+
+.title_en{
+    font-family: 'Caveat', serif;
+    font-size: 15px;
+    margin-left: 85px;
+    margin-top: 90px;
+}
+
+.line2{
+    margin-left: 85px;
+    width: 80px;
 }
