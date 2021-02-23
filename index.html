@@ -2,10 +2,10 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="destyle.css">
-    <link rel="stylesheet" href="main.js">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="js/main.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ファッションサイト</title>
 </head>
@@ -27,36 +27,35 @@
     <!-- headerここまで -->
 
     <!-- swiperここから -->
-     <!-- Sliderの内包コンテナ -->
-  <div class="swiper-wrapper">
     <div class="back_ground">
-      <div class="swiper-slide"><img src="img/title.png">
-        <p class="text_ja">太古の誇りを</p>
-        <p class="text_en">Discover the Collection</p>
-        <hr class="line">
-      </div>
+      <div class="swiper-container">
+        <div class="swiper-slide">
+            <img src="img/title.png">
+            <p class="text_ja">太古の誇りを</p>
+            <p class="text_en">Discover the Collection</p>
+            <hr class="line">
+        </div>
+    </div>    
+        <!-- <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/img01.png"></div>
+          <div class="swiper-slide"><img src="./img/img02.png"></div>
+          <div class="swiper-slide"><img src="./img/img03.png"></div>
+        </div> -->
+    
+        <div class="swiper-pagination"></div>
+          
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
-    <div class="swiper-container">
+    
+   
      
-          <!-- Slideさせたいコンテンツ -->
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-      </div>
-      <!-- ページネーション（※省略可） -->
-      <div class="swiper-pagination"></div>
-      <!-- ナビゲーションボタン（※省略可） -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-  
-      <!-- スクロールバー（※省略可） -->
-      <div class="swiper-scrollbar"></div>
-  </div>
+         
     <!-- swiperここまで -->
    
     <!-- mainここから -->
     <main class="primitive">
-      <img src="img/primitiveimg.png" alt="グレー画像">
+      <img src="img/primitiveimg2.png" alt="グレー画像">
       <ul>
         <li class="title">2020 SS Colection</li>
         <li class="title_main">Primitive</li>
@@ -71,7 +70,8 @@
 
 
     <!-- swiper読み込み -->
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>

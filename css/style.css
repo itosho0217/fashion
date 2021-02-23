@@ -7,46 +7,54 @@
     margin-right: 288px;
     padding: 10px;
     height: 93px;
-    font-family: 'Caveat', serif;
+    font-family: 'Bodoni';
 }
 /* headerここまで */
 
 /* swiperここから */
 .back_ground{
-    background-image: url(img/background.png);
+    background-image: url(../img/background.png);
     background-size: cover;
     height: 600px;
 }
 
-.swiper-slide img {
-    margin-top: 249px;
-    margin-left: 230px;
-    width: 40%;
+.c-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    padding: 0 15px;
+  }
+
+.swiper-slide img{
+    padding-top: 250px;
+    padding-left: 240px;
+    width: 60%;
+
 }
 
 .text_ja {
-    margin-left: 480px;
     font-size: 20px;
+    margin-left: 486px;
+    margin-top: 30px;
     font-family: 'Caveat', serif;
 
 }
 
 .text_en{
+    margin-left: 486px;
     margin-top: 30px;
-    margin-left: 455px;
-    font-family: 'Caveat', serif;
+    font-family: 'futura-pt', sans-serif;
 }
 
 .line{
-    margin-left: 450px;
-    margin-top: 10px;
     width: 200px;
+    margin-left: 486px;
 }
 
-.swiper-container {
-    width: 600px;
-    height: 300px;
+.swiper-button-prev{
+    text-align: center;
 }
+
 
 /* swiperここまで */
 
@@ -57,6 +65,11 @@
     display: flex;
     justify-content: space-around;
 }
+
+.primitive img{
+    width: 697px;
+}
+
 
 .title{
     margin-top: 46px;
